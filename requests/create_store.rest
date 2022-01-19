@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/stores
+Content-Type: application/json
+
+{
+    "name": "K-Supermarket Postitalo",
+    "traffic": "high"
+}
