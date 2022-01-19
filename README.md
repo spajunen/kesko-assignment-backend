@@ -8,5 +8,5 @@ Designed to help customers to visit stores when the traffic is low and to stay s
 Backend at Heroku: https://kesko-assignment-backend.herokuapp.com/
 
 No database. Available API calls: 
-/api/stores
-/api/stores/id (1-3)
+- /api/stores
+- /api/stores/id (1-3)
