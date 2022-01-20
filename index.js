@@ -5,6 +5,11 @@ const { requestLogger } = require('./middlewares/requestLogger')
 app.use(express.json())
 app.use(requestLogger)
 
+const cors = require('cors')
+app.use(cors())
+
+app.use(express.static('build'))
+
 let stores = [
     {
       id: 1,
