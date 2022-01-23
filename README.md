@@ -10,3 +10,5 @@ Backend at Heroku: https://kesko-assignment-backend.herokuapp.com/
 No database. Available API calls: 
 - /api/stores
 - /api/stores/id (1-3)
+
+Frontend coming soon..
