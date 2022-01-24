@@ -76,9 +76,16 @@ These instructions will get you a copy of the project up and running on your loc
   ```
 ### Installing
 
-First, clone the repository to your computer:
-
-
+First, clone the repositories to your computer:
+```
+git clone https://github.com/spajunen/kesko-assignment-backend.git
+git clone https://github.com/spajunen/kesko-assignment-frontend.git
+```
+Then, follow these steps:
+```
+1. Run npm install in both projects
+2. Run npm start in both projects
+```
 
 ## Technologies
 
