@@ -12,7 +12,7 @@ This application is developed as a assignment from Kesko, as a part of interview
 
 ### Problem
 
-This application can be used for displaying and updating traffic information in stores, like supermarkets, hardwarestores etc. Nowadays customers might want to visit stores outside rush hours to avoid too many contacts with other customers and to stay safe.
+This application can be used for displaying and updating traffic information in stores, like supermarkets, hardwarestores, etc. Nowadays customers might want to visit stores outside rush hours to avoid too many contacts with other customers to stay safe.
 
 ### Requirements
 
@@ -81,11 +81,14 @@ First, clone the repositories to your computer:
 git clone https://github.com/spajunen/kesko-assignment-backend.git
 git clone https://github.com/spajunen/kesko-assignment-frontend.git
 ```
-Then, follow these steps:
+Then, run the following commands in the root of each project:
 ```
-1. Run npm install in both projects
-2. Run npm start in both projects
+1. npm install
+2. npm start
 ```
+Services are now running:
+Frontend: http://localhost:3000/
+Backend: http://localhost:3001/
 
 ## Technologies
 
