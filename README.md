@@ -87,8 +87,8 @@ Then, run the following commands in the root of each project:
 2. npm start
 ```
 Services are now running:
-Frontend: http://localhost:3000/
-Backend: http://localhost:3001/
+- Frontend: http://localhost:3000/
+- Backend: http://localhost:3001/
 
 ## Technologies
 
