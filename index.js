@@ -64,6 +64,12 @@ app.post('/api/stores', (request, response) => {
       error: 'name missing' 
     })
   }
+
+  if (!body.traffic) {
+    return response.status(400).json({ 
+      error: 'traffic info missing' 
+    })
+  }
   
   const store = {
     name: body.name,
